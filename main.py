@@ -46,7 +46,7 @@ class PredictionResponse(BaseModel):
 
 @app.get('/')
 def greet():
-    return {'Welcome to Mishra AI School Guys'}
+    return {"message": "Welcome to Mishra AI School Guys"}
 
 
 
